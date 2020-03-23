@@ -1,0 +1,14 @@
+.directory
+node_modules
+npm-debug.log
+.terraform
+*.zip
+terraform.plan
+tfplan
+*.tfstate
+*.tfstate.backup
+codesuite-terraform-*
+hello.out
+passphrase.txt
+ssh_rsa*
+IGNORE
