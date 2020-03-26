@@ -23,3 +23,6 @@ first-commit: # setup files then git add + commit + push to the codecommit repos
 
 down: # download + execute hello.out
 	./down.sh
+
+destroy: # destroy everything with auto approve
+	terraform destroy -auto-approve
